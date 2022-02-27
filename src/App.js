@@ -7,7 +7,7 @@ import Auth from "./components/Auth";
 import UserProfile from "./components/UserProfile";
 
 function App() {
-  const isAuth = useSelector((state) => state.auth.isAuhtenticated);
+  const isAuth = useSelector((state) => state.auth.isAuthenticated);
   return (
     <React.Fragment>
       <Header />
